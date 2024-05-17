@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "authuser_frontend",
+    "slug": "authuser_frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "useNextNotificationsApi": true
+      }
+    },
+    "permissions": [
+      "NOTIFICATIONS"
+    ],
+  
+      "notification": {
+        "icon": "./assets/notificationIcon.png",
+        "color": "#FF0000",
+        "sound": true
+      },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "projectId": "e4e2b84b-36d2-4569-b037-d2be4e039338"
+   
+  }
+}
